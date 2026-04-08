@@ -926,7 +926,5 @@
 		"parseImageList": "",
 		"parseImageUrl": "",
 		"parseCategoryPath": ""
-	},
-	"backup_update": "https://raw.githubusercontent.com/haleydu-test/cimocUpdate/main/sourceBaseUrl.json",
-	"update_backup_my": "http://www.cimoc.top/cimoc/sourc/master/raw/sourceBaseUrl.json"
+	}
 }
