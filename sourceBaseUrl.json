@@ -1,4 +1,4 @@
-{
+{	
 	"GUILUOLIMANHUA": {
 		"baseUrl": "http://m.ymgjmh.com"
 	},
@@ -33,6 +33,14 @@
 	"HAODUOMAN": {
 		"baseUrl": "https://www.haoduoman.com"
 	},
+	"MANHUA36": {
+		"baseUrl": "",
+		"search": "",
+		"imageUrl": "",
+		"categoryUrl": "",
+		"hostOne": "",
+		"hostTwo": ""
+	},	
 	"DASHUMANHUA": {
 		"baseUrl": "https://www.dashumanhua.com",
 		"serverUrl": ""
@@ -69,26 +77,24 @@
 		"serverUrl": ""
 	},
 	"BAOZIV2": {
-		"baseUrl": "https://m.baozimh.one",
+		"baseUrl": "https://m.baozimh.one",		
 		"imgServerUrl1": "https://f40-1-4.g-mh.online",
 		"imgServerUrl2": "https://t40-1-4.g-mh.online",
-		"serverUrl": "https://api-get-v2.mgsearcher.com"
+		"serverUrl":"https://api-get-v2.mgsearcher.com"
 	},
 	"SUMANKU": {
 		"baseUrl": "http://www.sumanku.com"
 	},
-	"GODAMH": {
-		"baseUrl": "https://m.g-mh.org",
+	"GODAMH":{
+		"baseUrl":"https://m.g-mh.org",		
 		"imgServerUrl1": "https://f40-1-4.g-mh.online",
 		"imgServerUrl2": "https://t40-1-4.g-mh.online",
-		"serverUrl": "https://api-get-v2.mgsearcher.com"
+		"serverUrl":"https://api-get-v2.mgsearcher.com"
 	},
-	"GoDaMH": {
-		"baseUrl": "https://cn.godamanga.art"
+	"GoDaMH":{
+		"baseUrl":"https://cn.godamanga.art"
 	},
-	"WNACG": {
-		"updateUrl": "https://stevenyomi.github.io/source-domains/wnacg.txt"
-	},
+	"WNACG":{"updateUrl":"https://stevenyomi.github.io/source-domains/wnacg.txt"},
 	"BODONGMH": {
 		"baseUrl": "https://ikmmh.com",
 		"serverUrl": "",
@@ -113,13 +119,7 @@
 	},
 	"MH160CC": {
 		"baseUrl": "https://www.mh160mh.com",
-		"serverUrl": [
-			"mhpic5er.tgmhfc.uk",
-			"mhpic789-5.tgmhfc.uk",
-			"mhpic7fr.tgmhfc.uk",
-			"mhpicwt.tgmhfc.uk",
-			"mhpicwx.tgmhfc.uk"
-		],
+		"serverUrl": ["mhpic5er.tgmhfc.uk","mhpic789-5.tgmhfc.uk","mhpic7fr.tgmhfc.uk","mhpicwt.tgmhfc.uk","mhpicwx.tgmhfc.uk"],
 		"search": "/statics/searchelxt1e1.aspx?key=%s&page=%d",
 		"SERVER1": "https://mhpic5.kingwar.cn",
 		"SERVER2": "https://mhpic6.tgmhfc.uk"
@@ -154,10 +154,10 @@
 	"MKZHAN": {
 		"baseUrl": "https://comic.mkzhan.com",
 		"serverUrl": "https://comic.mkzcdn.com"
-	},
+	},		
 	"XMANHUA": {
 		"baseUrl": "https://xmanhua.com"
-	},
+	},	
 	"VOMIC": {
 		"baseUrl": ""
 	},
@@ -170,13 +170,7 @@
 	},
 	"LAIMH": {
 		"baseUrl": "https://www.laimanhua88.com",
-		"server": [
-			"mhpic5eer.tgmhfc.uk",
-			"mhpic7899-5.tgmhfc.uk",
-			"mhpic7ffr.tgmhfc.uk",
-			"mhpicwwt.tgmhfc.uk",
-			"mhpicwwx.tgmhfc.uk"
-		]
+		"server": ["mhpic5eer.tgmhfc.uk","mhpic7899-5.tgmhfc.uk","mhpic7ffr.tgmhfc.uk","mhpicwwt.tgmhfc.uk","mhpicwwx.tgmhfc.uk"]
 	},
 	"GUOGUOMH": {
 		"baseUrl": "https://d9zfb53b.lstool.xyz"
@@ -335,14 +329,7 @@
 	"QIMIAO": {
 		"baseUrl": "https://www.qimiaomh.com",
 		"serverUrl": "https://img.hltongchen.com/",
-		"server": [
-			"mh1.88bada.com",
-			"mh1.xinxiongyuehardware.com",
-			"mh2.88bada.com",
-			"mh2.xinxiongyuehardware.com",
-			"i.ougannike.com",
-			"i.ywzqzx.com"
-		],
+		"server": ["mh1.88bada.com", "mh1.xinxiongyuehardware.com", "mh2.88bada.com", "mh2.xinxiongyuehardware.com", "i.ougannike.com", "i.ywzqzx.com"],
 		"search": "/search/%s/%d.html",
 		"searchInfoList": ".mt20 > .classification",
 		"searchInfoCid": "h2 > a",
@@ -582,6 +569,8 @@
 	"MH517": "http://m.517mh.net",
 	"MHLOVE": "",
 	"MIGU": "http://www.migudm.cn",
+	"OHMANHUA": "",
+	"OHMANHUARATELIMIT": 2500,
 	"PUFEI": "http://m.pufei.cc",
 	"PUFEISERVER": "http://res.img.shengda0769.com/",
 	"QIMANWU": "https://cn.zhuzhumh.com",
@@ -827,15 +816,15 @@
 	},
 	"MangaBZManHua": {
 		"baseUrl": "http://www.mangabz.com"
-	},
+	},	
 	"YouKuManHua": {
 		"baseUrl": "https://m.ykmh.net",
 		"serverUrl": "http://js.haotuyk.top"
-	},
+	},	
 	"XinXinManHua": {
 		"baseUrl": "https://so.77mh.nl",
 		"serverUrl": "https://css.gdbyhtl.net:5443"
-	},
+	},	
 	"ShouJiManHua": {
 		"baseUrl": "http://www.gmanhua.com"
 	},
@@ -885,13 +874,13 @@
 		"baseUrl": "https://m.baozimh.one",
 		"imgServerUrl1": "https://f40-1-4.g-mh.online",
 		"imgServerUrl2": "https://t40-1-4.g-mh.online",
-		"serverUrl": "https://api-get-v2.mgsearcher.com"
+		"serverUrl":"https://api-get-v2.mgsearcher.com"
 	},
 	"HaoManEight": {
 		"baseUrl": "https://godamh.com",
 		"imgServerUrl1": "https://f40-1-4.g-mh.online",
 		"imgServerUrl2": "https://t40-1-4.g-mh.online",
-		"serverUrl": "https://api-get-v2.mgsearcher.com"
+		"serverUrl":"https://api-get-v2.mgsearcher.com"
 	},
 	"CopyManHua": {
 		"baseUrl": "https://www.mangacopy.com",
@@ -926,5 +915,7 @@
 		"parseImageList": "",
 		"parseImageUrl": "",
 		"parseCategoryPath": ""
-	}
+	},
+    "backup_update":"https://raw.githubusercontent.com/haleydu-test/cimocUpdate/main/sourceBaseUrl.json",
+    "update_backup_my":"http://www.cimoc.top/cimoc/sourc/master/raw/sourceBaseUrl.json"
 }
