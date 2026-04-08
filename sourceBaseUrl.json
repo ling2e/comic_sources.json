@@ -892,6 +892,30 @@
 		"serverCode2": "/api/v3/search/comic",
 		"serverCodeversion": "2025.11.21"
 	},
+	"MangaDex": {
+		"baseUrl": "https://mangadex.org",
+		"serverUrl": "https://mangadex.org/covers",
+		"search": "/titles?q=%s&page=%d",
+		"searchInfoList": "div.manga-card.dense",
+		"searchInfoCid": "div.manga-card-cover > a",
+		"searchInfoTitle": "a > span",
+		"searchInfoCover": "div.manga-card-cover > a > img",
+		"searchInfoAuthor": "span.author",
+		"searchInfoUpdate": "",
+		"parseInfoTitle": "div.title > p.mb-1",
+		"parseInfoCover": "div.layout-container > div:child(3) > div > a > img[alt]",
+		"parseInfoIntro": "div.layout-container > div:nth-last-child(2) > div > div > div > div:first-child > div",
+		"parseInfoAuthor": "div.layout-container > div:last-child > div:nth-child(2) > div:first-child > div:nth-child(2) > a > span",
+		"parseInfoUpdate": "div.chapter:first-of-type:has(div > a > a:first-child > img[title=\"English\"]) > div > a div.timestamp > time",
+		"parseInfoStatus": "div.chapter:first-of-type:has(div > a > a:first-child > img[title=\"English\"]) > div > a div.timestamp > time",
+		"parseChapterList1": "div.chapter:has(div > a > a:first-child > img[title=\"English\"]) a",
+		"parseChapterList2": "div.chapter a",
+		"parseChapterPath": "",
+		"parseChapterTitle": "a[title]",
+		"parseImageList": "",
+		"parseImageUrl": "",
+		"parseCategoryPath": ""
+	},
     "backup_update":"https://raw.githubusercontent.com/haleydu-test/cimocUpdate/main/sourceBaseUrl.json",
     "update_backup_my":"http://www.cimoc.top/cimoc/sourc/master/raw/sourceBaseUrl.json"
 }
